@@ -10,5 +10,5 @@ lpadmin -p VERONICA -D "VERONICA (Samsung CLP-510) [Farb-Laser]" -v ipp://drucke
 #lpadmin -p SILVANA -D "SILVANA (HP Officejet 4500 G510g-m) [Farb-Tintenstrahler]" -v ipp://drucker.berlin.pp/printers/SILVANA -E -L "P9a / Büro"
 
 #KLASSEN
-padmin -p SW -D "Schwarzweiß-Drucker" -v ipp://drucker.berlin.pp/classes/SW -E -L "P9a"
-lpadmin -p COLOR -D "Farbdrucker" -v ipp://drucker.berlin.pp/classes/COLOR -E -L "P9a"
+lpadmin -p SW -D "P9a Schwarzweiss-Drucker" -v ipp://drucker.berlin.pp/classes/SW -E -L "P9a"
+lpadmin -p COLOR -D "P9a Farbdrucker" -v ipp://drucker.berlin.pp/classes/COLOR -E -L "P9a"
