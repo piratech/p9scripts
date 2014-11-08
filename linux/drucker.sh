@@ -7,7 +7,7 @@ PREFIX="$1"
 # lpadmin -p ${PREFIX} -D "" -v ipp://p9a-drucker.piratech.de/printers/ -E -L "P9a / "
 
 # DRUCKER
-lpadmin -p ${PREFIX}KARL-THEODOR -D "KARL-THEODOR (Xerox Workcentre Pro 245) [SW-Laser]" -v ipp://p9a-drucker.piratech.de/KARL-THEODOR -E -L "P9a / Küche"
+lpadmin -p ${PREFIX}KARL-THEODOR -D "KARL-THEODOR (Xerox Workcentre Pro 245) [SW-Laser]" -v ipp://p9a-drucker.piratech.de/printers/KARL-THEODOR -E -L "P9a / Küche"
 lpadmin -p ${PREFIX}SCHAVAN  -D "SCHAVAN (Brother HL-2250DN) [SW-Laser]" -v ipp://p9a-drucker.piratech.de/printers/SCHAVAN -E -L "P9a / Büro"
 #lpadmin -p ${PREFIX}VERONICA -D "VERONICA (Samsung CLP-510) [Farb-Laser]" -v ipp://p9a-drucker.piratech.de/printers/VERONICA -E -L "P9a / Küche"
 #lpadmin -p ${PREFIX}SILVANA -D "SILVANA (HP Officejet 4500 G510g-m) [Farb-Tintenstrahler]" -v ipp://p9a-drucker.piratech.de/printers/SILVANA -E -L "P9a / Büro"
